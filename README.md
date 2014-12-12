@@ -5,11 +5,6 @@
 PingFederate password credential validator to check username/password against a generic REST service.
 
 
-### Author
-
-Paul Meyer (pmeyer@pingidentity.com)
-
-
 ### System Requirements / Dependencies
 
 Requires:
@@ -36,4 +31,6 @@ Once the plug-in has been deployed and the PingFederate instance restarted, laun
 3. Refer to the inline documentation to configure your REST endpoint details
 
 
+### Disclaimer
 
+This software is open sourced by Ping Identity but not supported commercially as such. Any questions/issues should go to the mailing list, the Github issues tracker or the author pmeyer@pingidentity.com directly See also the DISCLAIMER file in this directory.
