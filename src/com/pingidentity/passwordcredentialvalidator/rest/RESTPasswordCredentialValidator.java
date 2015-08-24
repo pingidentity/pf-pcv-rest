@@ -191,7 +191,7 @@ public class RESTPasswordCredentialValidator implements PasswordCredentialValida
                 
                 JSONObject attributeObject = null;
                 
-                if (config.jsonResponseObject != null) {
+                if (config.jsonResponseObject != null && config.jsonResponseObject.length() > 0) {
                 	attributeObject = (JSONObject)responseBody.get(config.jsonResponseObject);
                 } else {
                 	attributeObject = responseBody;
